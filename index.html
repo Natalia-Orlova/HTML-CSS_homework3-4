@@ -9,51 +9,55 @@
 </head>
 
 <body>
-    <div class="top">
-        <div class="header">
-            <img class="header__logo" src="img/header_logo.svg" alt="header logo">
-            <div class="header__links">
-                <a class="header__link" href="#">Home</a>
-                <a class="header__link" href="#">Aout Us</a>
-                <a class="header__link" href="#">Services</a>
-                <a class="header__link" href="#">
-                    Features
-                    <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L4 4L7 1" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </a>
-                <a class="header__link" href="#">Team</a>
-                <a class="header__link" href="#">Blog</a>
-                <a class="header__link" href="#">Contact</a>
+    <header class="header">
+        <div class="container flex">
+            <div class="header-logo">
+                <img class="logo" src="img/header_logo.svg" alt="header logo">
             </div>
+            <nav class="header-nav">
+                <a href="#" class="header-link home">Home</a>
+                <a href="#" class="header-link">About Us</a>
+                <a href="#" class="header-link">Services</a>
+                <a href="#" class="header-link">Features</a>
+                <a href="#" class="header-link">Team</a>
+                <a href="" class="header-link">Blog</a>
+                <a href="" class="header-link">Contact</a>
+            </nav>
         </div>
+    </header>
 
-        <div class="top__content">
-            <div class="top__info">
-                <h1 class="title">SEO & Digital
-                    Marketing For Your
-                    Website.</h1>
-                <p class="text">Provide all kind of seo services and help to improve
-                    seo ranking. Globally incubate standards.</p>
+    <main class="main">
+        <div class="container">
+            <div class="main-flex">
+                <div class="main-left">
+                    <h1 class="title">SEO & Digital
+                        Marketing For Your
+                        Website.</h1>
+                    <p class="text">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+                    <div class="btn-box">
+                        <a href="#" class="btn">Start Now</a>
+                        <a href="#" class="btn-link">Watch Video</a>
+                    </div>
+                </div>
 
-                <div class="top__buttons">
-                    <button class="button">Start Now</button>
-                    <a class="buttons__link" href="#">Watch Video</a>
+                <div class="main-right">
+                    <img src="img/top__image.svg" alt="top-image" class="top=image">
                 </div>
             </div>
-
-            <img src="img/top__image.svg" alt="top image">
         </div>
+    </main>
 
-        <div class="top__logo">
-            <img src="img/logo1.svg" alt="top logo">
-            <img src="img/logo2.svg" alt="top logo">
-            <img src="img/logo3.svg" alt="top logo">
-            <img src="img/logo4.svg" alt="top logo">
-            <img src="img/logo5.svg" alt="top logo">
-            <img src="img/logo6.svg" alt="top logo">
+    <section class="brands">
+        <div class="container flex">
+            <img src="img/logo1.svg" alt="logo" class="partners">
+            <img src="img/logo2.svg" alt="logo" class="partners">
+            <img src="img/logo3.svg" alt="logo" class="partners">
+            <img src="img/logo4.svg" alt="logo" class="partners">
+            <img src="img/logo5.svg" alt="logo" class="partners">
+            <img src="img/logo6.svg" alt="logo" class="partners">
         </div>
-    </div>
+    </section>
+
 </body>
 
 </html>
